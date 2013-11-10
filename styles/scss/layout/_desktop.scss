@@ -1,0 +1,14 @@
+@include sb-media(960px) {
+// @include sb-media(60em) {
+	// if the browser supports media queries, this will spit out "@media (min-width : 60em)". If it does not, this does not get wrapped in a media query!
+	// use this for layout that is dependent on pages 960px and wider: desktop layout
+	body {
+		background-color: purple;
+	}
+	header:after {
+		content:'DESKTOP CSS';
+		display: block;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+}

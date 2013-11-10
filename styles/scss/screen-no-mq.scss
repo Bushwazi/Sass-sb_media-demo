@@ -1,0 +1,5 @@
+/*
+ 	This file will generate css for IE8 and browsers that don't support media queries
+ */
+$no-mq-support: true;
+@import 'base';

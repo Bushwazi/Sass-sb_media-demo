@@ -1,0 +1,36 @@
+/*====================----------//////////
+	III :: Base || B :: webfonts --> font shortkuts
+\\\\\----------====================*/
+body {
+	font-family:"FranklinGothicBook", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:$darkGrey;
+	background:#ebebeb;
+	letter-spacing: 0.02em;
+	line-height: 1.4em;
+}
+a {
+	color:#e54e30;
+	text-decoration:none;
+}
+/*====================----------//////////
+	III :: Layout || A :: General
+\\\\\----------====================*/
+.desktop960 {
+	width:960px;
+}
+.desktop100 {
+	width:100%;
+}
+/*====================----------//////////
+	III :: Layout || B :: Header
+\\\\\----------====================*/
+/*====================----------//////////
+	III :: Layout || C :: Content
+\\\\\----------====================*/
+/*====================----------//////////
+	III :: Layout || D :: Sidebar or other navigation
+\\\\\----------====================*/
+/*====================----------//////////
+	II :: Layout || E :: Footer
+\\\\\----------====================*/

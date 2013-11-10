@@ -1,0 +1,13 @@
+@include sb-media(480px) {
+// @media all and (min-width : 480px) {
+	// for layouts dependent on 480px to 600px
+	body {
+		background-color: #F00;
+	}
+	header:after {
+		content:'MOBILE LARGE CSS';
+		display: block;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+}

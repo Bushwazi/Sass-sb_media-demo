@@ -1,0 +1,14 @@
+$no-mq-support: false !default;
+$serve-to-nomq-max-width:960px;///60em; // the desktop media query must be greater then this number to fire
+ 
+@mixin sb-media($query) {
+	@if $no-mq-support{
+		@if $query == $serve-to-nomq-max-width {
+			@content;
+		}
+	} @else {
+		@media all and ( 'min-width:' + $query ) {
+			@content;
+		}
+	}
+}

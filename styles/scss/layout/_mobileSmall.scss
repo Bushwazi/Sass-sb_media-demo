@@ -1,0 +1,10 @@
+@include sb-media(300px) {
+// @media all and (min-width : 300px) {
+	// for layouts dependent on 300px to 480px
+	header:after {
+		content:'MOBILE SMALL CSS';
+		display: block;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+}

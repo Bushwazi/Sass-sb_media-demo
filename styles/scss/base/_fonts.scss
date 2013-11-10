@@ -1,0 +1,43 @@
+/*====================----------//////////
+	II :: Base || A :: webfonts --> font shortkuts
+\\\\\----------====================*/
+strong,
+.bold {
+	font-weight:bolder;
+}
+.black {
+	color:#000000;
+}
+.white {
+	color:#FFF;
+}
+.grey {
+	color:$grey;
+}
+.ltgrey {
+	color:$ltGrey;
+}
+.darkgrey {
+	color:$darkGrey;
+}
+.orange {
+	color:$orange;
+}
+.fs14 {
+	font-size:14px;
+}
+.fs16 {
+	font-size:16px;
+}
+.fs18 {
+	font-size:18px;
+}
+.fs21 {
+	font-size:21px;
+}
+.fs24 {
+	font-size:24px;
+}
+.fs36 {
+	font-size:36px;
+}

@@ -1,0 +1,10 @@
+@include sb-media(600px) {
+// @media all and (min-width : 600px) {
+	// for layouts dependent on 600px to 768px
+	header:after {
+		content:'TABLET SMALL CSS';
+		display: block;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+}

@@ -1,0 +1,10 @@
+@include sb-media(768px) {
+// @media all and (min-width : 768px) {
+	// for layouts 788px to 960px
+	header:after {
+		content:'TABLET LARGE CSS';
+		display: block;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+}

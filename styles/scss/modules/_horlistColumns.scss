@@ -1,0 +1,21 @@
+/* ======>
+	Horizontal lists and columns
+<====== */
+.horlist {
+	/* use this with out clear:fix shortcut class ==> .cf */
+	list-style:none;
+}
+.horlist li,
+.column {
+	display:inline-block;
+	float:left;
+}
+.col-two .column {
+	width:50%;
+}
+.col-three .column {
+	width:33.3333333%;
+}
+.col-four .column {
+	width:25%;
+}
